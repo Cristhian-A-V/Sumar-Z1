@@ -15,7 +15,7 @@ namespace Sumar.Controllers
         [Route("Add")]
         public int Add(int a, int b)
         {
-            return a + b;
+            return a + b ;
         }
         [HttpPost]
         [Route("Add")]
